@@ -12,7 +12,7 @@
 	};
 </script>
 
-<section class="h-screen bg-black p-10">
+<section class="snap-start h-screen bg-gradient-to-b from-zinc-900 to-slate-900 p-10">
 	<h2 class="text-6xl text-center mb-3">Projects</h2>
 	{#if !selected_project_readme}
 		<div
@@ -60,8 +60,5 @@
 	.projects::-webkit-scrollbar-thumb {
 		background-color: white;
 		border-radius: 10px;
-	}
-	.text > h1 {
-		font-size: 5em;
 	}
 </style>

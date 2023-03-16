@@ -58,7 +58,7 @@
 
 </script>
 
-<header class="h-screen w-full flex flex-col items-center justify-around p-0 m-0">
+<header class="snap-start h-screen w-full flex flex-col items-center justify-around p-0 m-0 bg-gradient-to-b from-black to-red-900">
 	<h1 class="ml4 md:text-8xl text-6xl text-center">
 		<span class="letters letters-1">beldmian</span>
 		<span class="letters letters-2">portfolio</span>
@@ -69,7 +69,7 @@
 
 <style scoped>
 	header {
-		background-image: url('../assets/hero.jpg');
+		/* background-image: url('../assets/hero.jpg'); */
 		background-size: cover;
         overflow: hidden;
 	}
